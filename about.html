@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+     <!-- LOADER START -->
+     <div id="preloader">
+        <div class="loader2">
+            <svg class="loader" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 340">
+                 <circle cx="170" cy="170" r="135" stroke="#3AB3DF"/>
+                 <circle cx="170" cy="170" r="110" stroke="#3AB3DF"/>
+                 <circle cx="170" cy="170" r="85" stroke="#EF8354"/>
+                 <circle cx="170" cy="170" r="60" stroke="#EF8354"/>
+            </svg>
+        </div>
+    </div> 
+
+    <section class="sub-header" id="sub-header">
+        <nav>
+        <a href="index.html"><img src="./images/eduford_img/logo.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" id="menu-icon" onclick="hideMenu()"></i>  
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+       <i class="fa-solid fa-bars" id="menu-icon" onclick="showMenu()"></i>
+    </nav>
+     <h1>About Us</h1>
+    </section>
+
+    <section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the world's largest University</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, rerum libero voluptas quia, ullam soluta vero debitis quisquam, quas necessitatibus quasi illo quis perferendis autem nemo nesciunt. Sed id, exercitationem recusandae fuga, veniam voluptate asperiores iste voluptatem, placeat animi facilis?</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="./images/eduford_img/about.jpg" alt="">
+           
+        </div>
+    </div>
+</section>
+    
+    <!-- <------------ FOOTER -------------  -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus eveniet,quidem soluta inventore ab nobis ex consequatur aliquid sit perferendis odit, <br/> possimus repellendus commodi non accusantium ea enim necessitatibus iure!</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa-regular fa-heart"></i> Zain Tutorials</p>
+        <div class="footer-iconTop">
+            <a href="#sub-header"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </section>
+
+    <!-- SCROLL REVEAL -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+         <!-- MAIN JS -->
+   <script src="script.js"></script> 
+</body>
+</html>

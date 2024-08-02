@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+     <!-- LOADER START -->
+     <div id="preloader">
+        <div class="loader2">
+            <svg class="loader" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 340">
+                 <circle cx="170" cy="170" r="135" stroke="#3AB3DF"/>
+                 <circle cx="170" cy="170" r="110" stroke="#3AB3DF"/>
+                 <circle cx="170" cy="170" r="85" stroke="#EF8354"/>
+                 <circle cx="170" cy="170" r="60" stroke="#EF8354"/>
+            </svg>
+        </div>
+    </div> 
+
+    <section class="sub-header" id="sub-header">
+        <nav>
+        <a href="index.html"><img src="./images/eduford_img/logo.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" id="menu-icon" onclick="hideMenu()"></i>  
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+       <i class="fa-solid fa-bars" id="menu-icon" onclick="showMenu()"></i>
+    </nav>
+     <h1> Our Certificate & Online Program For 2021 </h1>
+    </section>
+
+    <!-- <---------------- BLOG PAGE -------------- -->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="./images/eduford_img/certificate.jpg" alt="">
+                <h1> Our Certificate & Online Program For 2021</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus doloremque consequatur itaque dolore non, quae laboriosam nostrum ipsam ut atque, molestias iure quaerat ex! Unde a debitis reiciendis repudiandae nam, commodi quidem iure omnis? Consequatur architecto placeat sint dolorum quod animi, explicabo error ullam inventore laudantium commodi, neque labore odio eveniet doloremque tempora molestiae. Consectetur rerum rem mollitia assumenda nihil sint corrupti voluptatem nam ex, tenetur doloribus hic minus quidem id veritatis nesciunt magni enim tempora quia dolorem aspernatur recusandae.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim nam ullam, blanditiis nemo, at vitae ipsum perspiciatis provident mollitia, inventore a fuga nihil? Enim voluptates quod minus recusandae distinctio delectus quis quo sapiente consequatur alias fugiat quia odit deserunt cupiditate quam sit possimus laudantium quas, vel et. Ab odio culpa tenetur praesentium reprehenderit accusamus inventore libero dolor quidem, ea, magnam incidunt amet necessitatibus minima blanditiis aperiam dolore, nihil eligendi tempore alias voluptatem! Delectus commodi inventore odio libero? Sed, molestias omnis!</p>
+                <br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui non repudiandae error, obcaecati minus recusandae ducimus? Quibusdam soluta iste, quas delectus consequatur quod itaque enim reprehenderit deserunt consequuntur fugiat perferendis esse nihil et! Dolorum dolore modi cumque consequuntur magni in suscipit, nam consectetur facere voluptatum molestias repellendus rerum earum voluptas deserunt eos natus, laudantium alias! Saepe illo explicabo illum iure distinctio voluptatum, numquam amet nisi vel. Minima adipisci, repellendus, nesciunt cumque corporis magnam ad esse vitae quas soluta dolores architecto.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="text" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn" >POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                    <div>
+                        <span>Business Analytics</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Data Science</span>
+                        <span>28</span>
+                    </div>
+                    <div>
+                        <span>Maching Learning</span>
+                        <span>15</span>
+                    </div>
+                    <div>
+                        <span>Computre Science</span>
+                        <span>34</span>
+                    </div>
+                    <div>
+                        <span>AutoCAD 42</span>
+                        <span>42</span>
+                    </div>
+                    <div>
+                        <span>Commarce</span>
+                        <span>30</span>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+         <!-- <------------ FOOTER -------------  -->
+
+         <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus eveniet,quidem soluta inventore ab nobis ex consequatur aliquid sit perferendis odit, <br/> possimus repellendus commodi non accusantium ea enim necessitatibus iure!</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p>Made With <i class="fa-regular fa-heart"></i> Zain Tutorials</p>
+            <div class="footer-iconTop">
+                <a href="#sub-header"><i class="fa-solid fa-angle-up"></i></a>
+            </div>
+        </section>
+
+        <!-- SCROLL REVEAL -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+             <!-- MAIN JS -->
+       <script src="script.js"></script> 
+    </body>
+    </html>

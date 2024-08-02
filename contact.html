@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+     <!-- LOADER START -->
+     <div id="preloader">
+        <div class="loader2">
+            <svg class="loader" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 340">
+                 <circle cx="170" cy="170" r="135" stroke="#3AB3DF"/>
+                 <circle cx="170" cy="170" r="110" stroke="#3AB3DF"/>
+                 <circle cx="170" cy="170" r="85" stroke="#EF8354"/>
+                 <circle cx="170" cy="170" r="60" stroke="#EF8354"/>
+            </svg>
+        </div>
+    </div> 
+
+    <section class="sub-header" id="sub-header">
+        <nav>
+        <a href="index.html"><img src="./images/eduford_img/logo.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" id="menu-icon" onclick="hideMenu()"></i>  
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+       <i class="fa-solid fa-bars" id="menu-icon" onclick="showMenu()"></i>
+    </nav>
+     <h1>Contact Us</h1>
+    </section>
+
+   <!-- <------------ CONTACT US ------------------- -->
+
+   <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224346.54004883842!2d77.04417347155065!3d28.52725273882469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1722060898829!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </section>
+
+   <section class="contact-us">
+    <div class="row">
+    <div class="contact-col">
+        <div>
+    <i class="fa-solid fa-house"></i>
+    <span>
+        <h5>XYZ Road, ABC Building</h5>
+        <p>Delhi, Shaheen Bagh ,IN</p>
+    </span>
+   </div>
+   <div>
+    <i class="fa-solid fa-phone"></i>
+    <span>
+    <h5>+91 7618000061</h5>
+    <p>Saturday & Sunday, 10am to 6pm </p>
+  </span>
+   </div>
+   <div>
+    <i class="fa-solid fa-envelope"></i>
+    <span>
+    <h5>info@eduford.com</h5>
+    <p>Email us your query</p>
+</span>
+   </div>
+   </div>
+   <div class="contact-col">
+        <form action="https://api.web3forms.com/submit" method="POST"
+            class="contact-left">
+            <div class="contact-left-title">
+            </div>
+            <input type="hidden" name="access_key" value="4603dd4f-b69a-47a1-8f1d-f6de89e06f1f">
+            <input type="text" name="name" placeholder="Your Name"  class="contact-inputs" required>
+            <input type="text" name="email" placeholder="Your Email" class="contact-inputs" required>
+            <textarea rows="5" name="message" placeholder="Your message" class="contact-inputs"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+
+   
+   </div>
+   </section>
+    
+    <!-- <------------ FOOTER -------------  -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus eveniet,quidem soluta inventore ab nobis ex consequatur aliquid sit perferendis odit, <br/> possimus repellendus commodi non accusantium ea enim necessitatibus iure!</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa-regular fa-heart"></i> Zain Tutorials</p>
+        <div class="footer-iconTop">
+            <a href="#sub-header"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </section>
+
+    <!-- SCROLL REVEAL -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+          <!-- MAIN JS -->
+   <script src="script.js"></script> 
+</body>
+</html>
